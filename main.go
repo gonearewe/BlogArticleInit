@@ -6,4 +6,5 @@ func main() {
 	f.GetInfo()
 	DownloadPicture(url, f.Picture_name)
 	f.PrintFile()
+	f.OpenWithCode()
 }
