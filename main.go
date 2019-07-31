@@ -1,7 +1,9 @@
 package main
 
 func main() {
-	var s Article
-	s.GetInfo()
-	s.PrintFile()
+	var f Article
+	url:=GetUrl()
+	f.GetInfo()
+	DownloadPicture(url, f.Picture_name)
+	f.PrintFile()
 }
