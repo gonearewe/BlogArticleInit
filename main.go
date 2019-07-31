@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Printf("开始")
+	var f Article
+	url:=GetUrl()
+	f.GetInfo()
+	DownloadPicture(url, f.Picture_name)
+	f.PrintFile()
+	f.OpenWithCode()
 }
