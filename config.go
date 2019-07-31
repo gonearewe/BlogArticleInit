@@ -1,7 +1,9 @@
 package main
-
+//this file is safe to modify
+//make sure two PATHs blow end with '/'
 const ARTICLE_PATH="/mnt/d/MyProjects/gonearewe.github.io/_posts/"
 const PICTURE_PATH="/mnt/d/MyProjects/gonearewe.github.io/img/"
+//CONTENT is a template
 const CONTENT=`
 ---
 layout:     post
